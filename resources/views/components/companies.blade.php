@@ -4,14 +4,14 @@
             <div class="col-md-6" style="color: white">
                 <h1 style="border-bottom: 12px solid #99cd07;display: inline-block;color: white ">@lang('translates.companies')</h1>
             </div>
-            <div class="m-5 col-8 justify-content-between">
-                <ul class="nav nav-pills mb-3  owl-carousel owl-theme" id="pills-tab" role="tablist">
+            <div class="col-12 justify-content-between">
+                <ul class="nav nav-pills mb-3 owl-carousel owl-theme" id="pills-tab" role="tablist">
                     @foreach($companies as $company_logo)
                         <li class="nav-item" role="presentation">
                             <a data-bs-toggle="pill" class="@if($loop->first) active @endif" id="pills-{{$loop->iteration}}-tab"
                                data-bs-target="#pills-{{$loop->iteration}}"
                                role="tab" aria-controls="pills-{{$loop->iteration}}" aria-selected="true">
-                                <img style="width: 150px;border-radius: 100%" src="{{asset(Voyager::image($company_logo->getAttribute('logo')))}}" alt="">
+                                <img style="width: 150px;border-radius: 100%; cursor: pointer" src="{{asset(Voyager::image($company_logo->getAttribute('logo')))}}" alt="">
                             </a>
                         </li>
                     @endforeach
@@ -31,3 +31,32 @@
         </div>
     </div>
 </div>
+
+@push('scripts')
+    <script>
+        let owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:5,
+            loop:true,
+            margin:50,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true,
+                },
+                600:{
+                    items:3,
+                    nav:false
+                },
+                1000:{
+                    items:5,
+                    nav:true,
+                }
+            }
+        });
+    </script>
+@endpush

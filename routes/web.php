@@ -15,9 +15,7 @@ use TCG\Voyager\Voyager;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-})->middleware('localization');
+Route::view('/', 'index')->name('index')->middleware('localization');
 
 
 Localization::route();
