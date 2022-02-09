@@ -1,4 +1,4 @@
-<div class="vh-100" style="background-image: url(https://mobilgroup.az/mb/img/welcome.jpg)" id="contact">
+<div class="vh-100" style="background-size: cover; background-image: url({{asset('assets/images/contact.jpg')}})" id="contact">
     <div class="container">
         <div class="row align-items-center vh-100">
             <div class="col-md-6" style="color: black">
