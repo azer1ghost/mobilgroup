@@ -22,13 +22,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#navbarSupportedContent">@lang('translates.main')</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link text-dark" href="#">@lang('translates.about')</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="#companies">@lang('translates.companies')</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#contact">@lang('translates.contacts')</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"

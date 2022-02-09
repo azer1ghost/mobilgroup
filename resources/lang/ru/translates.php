@@ -7,4 +7,6 @@ return [
     'contact' => 'Контакты',
     'main_office' => 'Главный офис',
     'call_center' => 'Колл-центр',
+    'contacts' => 'Контакты',
+
 ];

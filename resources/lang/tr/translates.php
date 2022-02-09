@@ -7,4 +7,6 @@ return [
     'contact' => 'İletişim Araçları',
     'main_office' => 'Merkez Ofis',
     'call_center' => 'Çağrı Merkezi',
+    'contacts' => 'İletişim',
+
 ];
