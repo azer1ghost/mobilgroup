@@ -25,5 +25,5 @@ Localization::route();
 Route::withoutMiddleware('localization')
     ->prefix('admin')
     ->group(function () {
-        Voyager::routes();
+        (new Voyager)->routes();
     });
