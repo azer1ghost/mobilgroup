@@ -110,9 +110,9 @@ return [
          */
         'locales' => [
             'az',
+            'ru',
             'en',
             'tr',
-            'ru',
         ],
     ],
 
