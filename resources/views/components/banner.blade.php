@@ -1,4 +1,4 @@
-<div class="vh-100" style="background-size: cover; background-image: url({{asset('assets/images/container.jpg')}})">
+<div class="vh-100" style="box-shadow: inset 5000px 0 rgba(0,0,0,0.22); background-size: cover; background-image: url({{asset('assets/images/container.jpg')}})">
     <div class="container overflow-hidden">
         <div class="row align-items-center vh-100">
             <div class="col-12 col-md-12 col-lg-6 text-light">
