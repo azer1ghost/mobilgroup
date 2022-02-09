@@ -45,8 +45,7 @@
             responsiveClass:true,
             responsive:{
                 0:{
-                    center: true,
-                    items:1,
+                    items:2,
                     nav:true,
                 },
                 600:{
