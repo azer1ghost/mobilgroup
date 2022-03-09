@@ -6,13 +6,13 @@
                 <div>
                     <h5>@lang('translates.main_office')</h5>
                     <p>{{setting('site.address')}}</p>
-                    <p>@lang('translates.call_center'):<a class="text-decoration-none" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>
+                    <p>@lang('translates.call_center'): <a class="text-decoration-none" href="tel:{{setting('site.short_phone')}}"> {{setting('site.short_phone')}}</a>
                     </p>
-                    <p>Tel:<a class="text-decoration-none" href="tel:{{setting('site.intercity_phone')}}">{{setting('site.intercity_phone')}}</a>
+                    <p>Tel: <a class="text-decoration-none" href="tel:{{setting('site.intercity_phone')}}"> {{setting('site.intercity_phone')}}</a>
                     </p>
-                    <p>Mobil:<a class="text-decoration-none" href="tel:{{setting('site.phone')}}">{{setting('site.phone')}}</a>
+                    <p>Mobil: <a class="text-decoration-none text-light" href="tel:{{setting('site.phone')}}"> {{setting('site.phone')}}</a>
                     </p>
-                    <a class="text-decoration-none" href="mailto:{{setting('site.email')}}">{{setting('site.email')}}</a>
+                    <a class="text-decoration-none" href="mailto:{{setting('site.email')}}"> {{setting('site.email')}}</a>
                 </div>
             </div>
             <div class="col-sm-6 d-flex align-items-center">
