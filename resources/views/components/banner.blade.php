@@ -3,7 +3,7 @@
         <div class="row align-items-center vh-100">
             <div class="col-12 col-md-12 col-lg-8 text-light">
                 <h1 style="border-bottom: 4px solid #99cd07;display: inline-block; padding-bottom: 2px">{{$meta->get('title')}}</h1>
-                <p>{!! $meta->get('body') !!}</p>
+                <p style="font-size: 26px !important;">{!! $meta->get('body') !!}</p>
             </div>
 {{--            <div class="col-12 col-md-12 col-lg-6">--}}
 {{--                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">--}}

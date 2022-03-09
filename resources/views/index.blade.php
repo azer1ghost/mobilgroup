@@ -12,28 +12,31 @@
     <link rel="stylesheet" href="{{asset('assets/js/owl.carousel.min.css')}}">
 </head>
 <style>
-    .navbar-brand {
-        position: absolute;
-        left: 50%;
-        margin-left: -100px !important;  /* 50% of your logo width */
-        display: block;
+    @media only screen and (min-width: 992px) {
+        .navbar-brand {
+            position: absolute;
+            left: 50%;
+            margin-left: -100px !important;  /* 50% of your logo width */
+            display: block;
+        }
+        .navbar-expand-lg {
+            height: 80px;
+        }
     }
 </style>
 <body>
-    <nav class="navbar px-3 navbar-expand-lg navbar-light" style="height: 80px">
+    <nav class="navbar px-3 navbar-expand-lg navbar-light" >
 
-                <a class="navbar-brand"  href="{{route('index')}}">
-                    <img width="180" style="align-items:center; !important;" class="m-2" src="{{asset(Voyager::image(setting('site.logo')))}}" alt="Mobil Group">
-                </a>
+        <a class="navbar-brand"  href="{{route('index')}}" >
+            <img width="180" style="align-items:center; !important;" class="m-2" src="{{asset(Voyager::image(setting('site.logo')))}}" alt="Mobil Group">
+        </a>
 
         <button class="text-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">@lang('translates.about')</a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="#companies">@lang('translates.companies')</a>
                 </li>
@@ -54,9 +57,7 @@
                      @endforeach
                     </div>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-dark" href="#contact"><i  class="fas fa-phone-square"></i> {{setting('site.short_phone')}}</a>
-                </li>
+
             </ul>
         </div>
     </nav>
