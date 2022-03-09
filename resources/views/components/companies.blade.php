@@ -22,7 +22,7 @@
                     <div id="pills-{{$loop->iteration}}" role="tabpanel" aria-labelledby="pills-{{$loop->iteration}}-tab" class="tab-pane fade @if($loop->first) active show @endif">
                         <h3 style="color:white">{{$company->getTranslatedAttribute('title')}}</h3>
                         <p style="color:white">{{$company->getTranslatedAttribute('description')}}</p>
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn" style="background-color: #99cd07">
                             <a class="text-decoration-none" style="color:white" href="{{$company->getAttribute('url')}}" target="_blank">@lang('translates.pass')</a>
                         </button>
                     </div>
