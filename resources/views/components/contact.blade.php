@@ -5,7 +5,7 @@
                 <h1  style="border-bottom: 4px solid #99cd07;display: inline-block">@lang('translates.contact')</h1>
                 <div>
                     <h5>@lang('translates.main_office')</h5>
-                    <p>{{setting('site.address')}}</p>
+                    <p><a class="text-decoration-none" href="{{setting('site.location')}}">{{setting('site.address')}}</a></p>
                     <p>@lang('translates.call_center'): <a class="text-decoration-none" href="tel:{{setting('site.short_phone')}}"> {{setting('site.short_phone')}}</a>
                     </p>
                     <p>Tel: <a class="text-decoration-none" href="tel:{{setting('site.intercity_phone')}}"> {{setting('site.intercity_phone')}}</a>
@@ -15,9 +15,9 @@
                     <a class="text-decoration-none" href="mailto:{{setting('site.email')}}"> {{setting('site.email')}}</a>
                 </div>
             </div>
-            <div class="col-sm-6 d-flex align-items-center">
-                <iframe src="{{setting('site.location')}}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+{{--            <div class="col-sm-6 d-flex align-items-center">--}}
+{{--                <iframe src="{{setting('site.location')}}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>--}}
+{{--            </div>--}}
         </div>
     </div>
 </div>
