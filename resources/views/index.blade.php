@@ -11,11 +11,21 @@
     <link rel="shortcut icon" href="https://mobilgroup.az/mb/img/favicon.png">
     <link rel="stylesheet" href="{{asset('assets/js/owl.carousel.min.css')}}">
 </head>
+<style>
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -100px !important;  /* 50% of your logo width */
+        display: block;
+    }
+</style>
 <body>
-    <nav class="navbar px-3 navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="{{route('index')}}">
-            <img width="150" class="m-2" src="{{asset(Voyager::image(setting('site.logo')))}}" alt="Mobil Group">
-        </a>
+    <nav class="navbar px-3 navbar-expand-lg navbar-light" style="height: 80px">
+
+                <a class="navbar-brand"  href="{{route('index')}}">
+                    <img width="180" style="align-items:center; !important;" class="m-2" src="{{asset(Voyager::image(setting('site.logo')))}}" alt="Mobil Group">
+                </a>
+
         <button class="text-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
             <i class="fas fa-bars"></i>
         </button>

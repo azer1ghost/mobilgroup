@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center vh-100">
             <div class="col-md-6" style="color: black">
-                <h1  style="border-bottom: 8px solid #99cd07;display: inline-block">@lang('translates.contact')</h1>
+                <h1  style="border-bottom: 4px solid #99cd07;display: inline-block">@lang('translates.contact')</h1>
                 <div>
                     <h5>@lang('translates.main_office')</h5>
                     <p>{{setting('site.address')}}</p>
