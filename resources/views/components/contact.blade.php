@@ -10,7 +10,7 @@
                     </p>
                     <p>Tel: <a class="text-decoration-none" href="tel:{{setting('site.intercity_phone')}}"> {{setting('site.intercity_phone')}}</a>
                     </p>
-                    <p>Mobil: <a class="text-decoration-none text-light" href="tel:{{setting('site.phone')}}"> {{setting('site.phone')}}</a>
+                    <p>Mobil: <a class="text-decoration-none" href="tel:{{setting('site.phone')}}"> {{setting('site.phone')}}</a>
                     </p>
                     <a class="text-decoration-none" href="mailto:{{setting('site.email')}}"> {{setting('site.email')}}</a>
                 </div>
