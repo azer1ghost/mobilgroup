@@ -1,10 +1,10 @@
 <div class="vh-100" style="background-size: cover; background-image: url({{asset('assets/images/hand-to-hand.jpg')}})" id="companies">
-    <div class="container">
-        <div class="row align-items-center vh-100">
-            <div class="col-md-6" style="color: white">
+    <div class="container overflow-hidden">
+        <div class="row align-items-center">
+            <div class="col-md-6 companies">
                 <h1 style="border-bottom: 4px solid #99cd07;display: inline-block;color: white; padding-bottom: 2px">@lang('translates.companies')</h1>
             </div>
-            <div class="col-12 d-flex justify-content-center">
+            <div class="mt-2 col-12 d-flex justify-content-center">
                 <ul class="nav nav-pills mb-3 owl-carousel owl-theme" id="pills-tab" role="tablist">
                     @foreach($companies as $company_logo)
                         <li class="nav-item" role="presentation">
