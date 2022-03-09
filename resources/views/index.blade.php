@@ -22,10 +22,7 @@
         .navbar-expand-lg {
             height: 80px;
         }
-        .companies {
-            margin-top: 300px;
-            margin-bottom: 30px;
-        }
+
     }
 </style>
 <body>
