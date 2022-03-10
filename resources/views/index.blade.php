@@ -41,8 +41,11 @@
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="#companies">@lang('translates.companies')</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#contact">@lang('translates.contacts')</a>
+                <li class="nav-item active">
+                    <a class="nav-link text-dark" href="tel:{{setting('site.short_phone')}}"><i class="fas fa-phone-square"></i> {{setting('site.short_phone')}}</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-dark" href="https://www.linkedin.com/company/mobilgroup/mycompany"><i class="fa-brands fa-linkedin"></i> {{setting('site.short_phone')}}</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
