@@ -2,7 +2,7 @@
     <div class="container overflow-hidden">
         <div class="row align-items-center vh-100">
             <div class="col-md-6">
-                <h1 style="border-bottom: 4px solid #99cd07;display: inline-block;color: white; padding-bottom: 2px">@lang('translates.companies')</h1>
+                <h1 style="border-bottom: 4px solid #99cd07;display: inline-block;color: white; padding-bottom: 2px;padding-right: 158.41px">@lang('translates.companies')</h1>
             </div>
             <div class="col-12 d-flex justify-content-center">
                 <ul class="nav nav-pills mb-3 owl-carousel owl-theme" id="pills-tab" role="tablist">
