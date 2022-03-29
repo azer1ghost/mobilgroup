@@ -11,7 +11,7 @@
                             <a data-bs-toggle="pill" class="@if($loop->first) active @endif" id="pills-{{$loop->iteration}}-tab"
                                data-bs-target="#pills-{{$loop->iteration}}"
                                role="tab" aria-controls="pills-{{$loop->iteration}}" aria-selected="true">
-                                <img style="width: 200px;border-radius: 100%; cursor: pointer" src="{{asset(Voyager::image($company_logo->getAttribute('logo')))}}" alt="">
+                                <img style="width: 180px;border-radius: 100%; cursor: pointer" src="{{asset(Voyager::image($company_logo->getAttribute('logo')))}}" alt="">
                             </a>
                         </li>
                     @endforeach
